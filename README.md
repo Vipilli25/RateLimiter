@@ -57,13 +57,13 @@ The API proxies requests to the OpenWeather service, enforcing rate limits per u
 
 2. Setup Environment Variables
 
-Create a `.env` file in the root of your project directory and add the following environment variables:
-
+   Create a `.env` file in the root of your project directory and add the following environment variables:
+    
     ```env
-    OPENWEATHER_API_KEY=your_openweather_api_key_here
-    OPENWEATHER_URL=https://api.openweathermap.org/data/2.5/weather
-    REDIS_HOST=localhost
-    REDIS_PORT=6379
+      OPENWEATHER_API_KEY=your_openweather_api_key_here
+      OPENWEATHER_URL=https://api.openweathermap.org/data/2.5/weather
+      REDIS_HOST=localhost
+      REDIS_PORT=6379
 
 3. Run the application  
     Ensure Redis is running and run FastAPI server:
